@@ -1,0 +1,218 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #F5F5F5;
+    color: #2C3E50;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #F5F5F5;
+}
+
+#logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2C3E50;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #E74C3C;
+}
+
+/* Hero Section styles */
+#hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #F39C12;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #E74C3C;
+}
+
+/* Services Section styles */
+#services {
+    text-align: center;
+    padding: 80px 0;
+}
+
+#services h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+#services ul {
+    list-style: none;
+    padding: 0;
+}
+
+#services li {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Portfolio Section styles */
+#portfolio {
+    text-align: center;
+    padding: 80px 0;
+}
+
+#portfolio h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+#portfolio img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Pricing Section styles */
+#pricing {
+    text-align: center;
+    padding: 80px 0;
+}
+
+#pricing h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.plan {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+}
+
+.plan h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2C3E50;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+}
+
+.plan li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+/* Testimonials Section styles */
+#testimonials {
+    text-align: center;
+    padding: 80px 0;
+}
+
+blockquote {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Contact Section styles */
+#contact {
+    text-align: center;
+    padding: 80px 0;
+}
+
+#contact h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+#form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #2C3E50;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #F39C12;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #E74C3C;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #F5F5F5;
+    color: #2C3E50;
+}
