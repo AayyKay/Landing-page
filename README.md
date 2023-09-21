@@ -39,7 +39,7 @@ To get started with this project, follow these steps:
 
 Feel free to use this landing page template for your own product or service. You can easily replace the content and images to showcase your unique offering. The CSS is well-structured, making it simple to modify the styling to suit your brand.
 
-**Customization**
+##Customization##
 
 To customize this landing page for your specific needs, follow these steps:
 
